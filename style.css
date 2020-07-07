@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 
 }
@@ -138,4 +138,48 @@ footer li.last-item {
 .right {
     margin-left: auto;
     padding-right: 0px;
+} */
+
+
+ul {
+    list-style: none;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.header ul{
+    display: flex;
+}
+
+ul {
+    float: right;
+}
+
+ul li {
+ margin-right: 20px;
+ font-size: 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding-top: 1px;
+}
+
+.dots {
+    height: 15px;
+    width: 15px;
+    opacity: 0.5;
+   
+}
+
+
+.avatar {
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
 }
